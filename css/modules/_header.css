@@ -1,6 +1,89 @@
 header {
+  width: 100%;
+  min-height: 53.5625rem;
   background-image: url("../../images/banner-header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  padding: 1.5rem 4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  color: #ffffff;
+}
+.header-nav-bar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #e2d6c0;
+}
+.header-nav-logo {
+  width: 8.25rem;
+  height: 2.15906rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.link {
+  /* small */
+  font-family: "PingFang SC";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 140%; /* 1.225rem */
+}
+.info-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.info-header-logo {
+  width: 18.62494rem;
+  height: 5.19394rem;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.info-header-text {
+  color: #f4f1ec;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 1.4rem */
+  align-self: center;
+}
+
+.header-nav-bar,
+.info-header {
+  position: relative;
+  z-index: 1;
+}
+
+.banner {
+  display: flex;
+  height: 53.5625rem;
+  padding: 0 7.875rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 9.9375rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
 }
