@@ -1,10 +1,11 @@
 .menu-section {
   display: flex;
-  padding: 0 1.25rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4rem;
   align-self: stretch;
+  gap: 4rem;
+  padding: 0 1.25rem;
+  margin-top: 2.5rem;
 }
 
 .menu-info {
@@ -18,25 +19,26 @@
 
 h1 {
   color: #301c1d;
-  font-family: "Newsreader";
+  font-family: "Newsreader", serif;
   font-size: 6.875rem;
   text-align: left;
 }
+
 .menu-cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.3125rem;
   align-self: stretch;
+  gap: 2.3125rem;
 }
+
 .info-label-banner {
   color: #000;
-  font-family: "Roboto Mono";
+  font-family: "Roboto Mono", monospace;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 1.2rem */
+  line-height: 120%;
 }
 
 .card-info {
@@ -46,24 +48,19 @@ h1 {
   gap: 0.75rem;
 }
 
-.menu-discription .btn-primary,
-.menu-discription .btn-primary:hover,
-.menu-discription .btn-primary:focus,
-.menu-discription .btn-primary:active {
+.menu-discription .btn-primary {
   display: inline-flex;
   width: fit-content;
   align-self: flex-end;
-  color: #301c1d;
+  color: #6e0010;
   font-family: "Arapey", serif;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
   line-height: 120%;
   background: none;
-  border: 0;
-  outline: none;
+  border: none;
   box-shadow: none;
   text-decoration: underline;
   text-underline-offset: 5px;
-  text-decoration-thickness: 0.8 px;
+  text-decoration-thickness: 0.1rem;
 }
